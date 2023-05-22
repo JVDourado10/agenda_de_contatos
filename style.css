@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+  padding: 8px 16px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header .container img {
+  height: 40px;
+  padding: 5px;
+}
+
+header .container img,
+header .container h1,
+main .container {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+main {
+  margin-top: 40px;
+}
+
+main .container {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+button {
+  padding: 8px 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Comfortaa";
+  background-color: rgb(84, 238, 84);
+  border: 1px solid rgb(9, 151, 9);
+  color: rgb(18, 73, 18);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main .container:nth-child(2) {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-around;
+}
+
+th {
+  margin-bottom: 8px;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+td {
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}

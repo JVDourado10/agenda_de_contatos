@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./imagens/contato.svg" type="image/x-icon " />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Agenda de Contatos</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Agenda de Contatos</h1>
+      <img src="./imagens/contato.svg" alt="Símbolo de contatos">
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX">
+        <button type="submit">Adicionar +</button>
+      </form>
+    </div>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script src="./main.js"></script>
+</body>
+
+</html>
